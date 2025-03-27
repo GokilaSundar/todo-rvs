@@ -1,0 +1,1 @@
+.grid-view{display:grid;grid-template-columns:repeat(3,1fr);justify-content:space-between;align-items:center;gap:40px;margin:20px}.student{border:2px solid black;padding:10px;width:300px;cursor:pointer}@media (max-width: 1000px){.grid-view{margin:20px;grid-template-columns:repeat(2,1fr)}}@media (max-width: 600px){.grid-view{grid-template-columns:1fr}.student{width:100%}}
